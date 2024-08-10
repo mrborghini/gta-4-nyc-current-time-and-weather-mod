@@ -24,8 +24,8 @@ class Program : Script
         currentTimeTimer.Tick += UpdateTimeTimer;
         currentTimeTimer.Start();
 
-        // Update the weather every 30 minutes
-        Timer newWeatherTimer = new Timer(1800000);
+        // Update the weather every 2 minutes
+        Timer newWeatherTimer = new Timer(120000);
         newWeatherTimer.Tick += UpdateWeatherTimer;
         newWeatherTimer.Start();
 
