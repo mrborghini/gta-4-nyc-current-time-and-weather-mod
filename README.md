@@ -1,7 +1,7 @@
 # Grand Theft Auto IV current New York city time and weather mod.
 
 ## What does this mod do?
-This mod syncs your Grand Theft Auto IV time with the real current time in New York City and updates the weather every 30 minutes based on the real weather in New York City.
+This mod syncs your Grand Theft Auto IV time with the real current time in New York City and updates the weather every 2 minutes based on the real weather in New York City.
 
 ## How does it work?
 For the time it's quite simple. This mod utilizes TimeZoneInfo api from Microsoft to retrieve the Eastern Standard Time (Without internet).
